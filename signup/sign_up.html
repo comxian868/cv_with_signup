@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Form</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<div style="text-align: center;font-family: arial;text-decoration:none;">
+		<a href="../index.html">Home |</a>
+		<a href="../info/personalInfo.html">Personal Information |</a>
+		<a href="../education/education.html">Education |</a>
+		<a href="../experience/experience.html">Experience |</a>
+		<a href="sign_up.html"><span style="font-weight: bolder;">Sign Up |</span></a>
+		<a href="../contact/contact.html">Contact</a>
+	</div>
+
+
+	<div>
+		<h1>Sign Up Form</h1>
+
+		<form method="post" action="process.php">
+		First Name : <input type="text" name="first_name" id="first_name" placeholder="Enter First Name" />
+		Middle Name : <input type="text" name="mid_name" id="mid_name" placeholder="Enter Middle Name" />
+		Last Name : <input type="text" name="last_name" id="last_name" placeholder="Enter Last Name" />
+		<br/><br/>
+		Father Name : <input type="text" name="father_name" id="father_name" placeholder="Enter Father Name" />
+		<br /><br />
+		Age : <input type="text" name="age" id="age" placeholder="Enter Your Age" />
+		<br /><br />
+		Gender : <input type="radio" name="gender" id="m">Male <input type="radio" name="gender" id="f">Female
+		<br /><br />
+		City : <input type="text" name="city" disabled="disabled" value="Lahore" />
+		<br /><br />
+		<input type="dropdown" name="">
+		Interests : <input type="checkbox" name="chk_hockey" id="chk_hockey"> Hockey<input type="checkbox" name="chk_fball" id="chk_fball"> Football <input type="checkbox" name="chk_trvl" id="chk_trvl"> Travelling
+		<br /><br />
+		Upload Your Picture : <input type="file" name="Picture" />
+		<br/><br/>
+		<input type="reset" name="" /> <input type="submit" name="">
+			
+
+		</form>
+
+	</div>
+</body>
+</html>
